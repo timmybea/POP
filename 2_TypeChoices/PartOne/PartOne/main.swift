@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  2_Type_Choices
+//  PartOne
 //
-//  Created by Tim Beals on 2018-04-23.
+//  Created by Tim Beals on 2018-05-28.
 //  Copyright © 2018 Tim Beals. All rights reserved.
 //
 
@@ -158,7 +158,7 @@ func extraCredit(refType: MyReferenceType, amount: Int) {
 }
 
 func extraCredit(valType: MyValueType, amount: Int) {
-// if method, you could use 'mutating'
+    // if method, you could use 'mutating'
     var valType = valType
     valType.grade += amount
 }
@@ -214,4 +214,3 @@ for (index, student) in students.enumerated() {
 for assignment in mathGrades {
     print("Assignment \(assignment.name): \(assignment.grade)")
 }
-

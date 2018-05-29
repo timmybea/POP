@@ -72,4 +72,9 @@ class BiPed : Animal {
     }
 }
 
+//FINAL
+//Reduces overhead associated with dynamic dispatch
+//Puts a restriction on the class, method, or property
+//Can't be subclassed or overridden
+
 
